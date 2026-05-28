@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Open a bank account — secure online onboarding, required documents, and next steps." />
+  <title>Open a bank account — FutureBank</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo" aria-label="FutureBank home">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="6" width="20" height="12" rx="2" fill="#006b5c" />
+          </svg>
+          <span class="brand-text">FutureBank</span>
+        </a>
+      </div>
+      <nav class="nav" aria-label="Primary Navigation">
+        <a href="index.html" class="btn btn-outline">Back to home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Open a bank account</h1>
+          <p class="lead">Fast, secure and fully online — get your account set up in a few simple steps.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#apply">Open an account</a>
+            <a class="btn btn-outline" href="#requirements">Required documents</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="card-visual">
+            <svg viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" class="hero-illustration">
+              <rect width="600" height="360" rx="12" fill="#f7f7f7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <p class="section-sub">Open a standard personal account online — no branch visit required for most customers.</p>
+        <div class="services-grid">
+          <article class="card">
+            <h3>Step 1 — Prepare</h3>
+            <p>Gather your ID and necessary documents. See the list below for accepted IDs.</p>
+          </article>
+          <article class="card">
+            <h3>Step 2 — Verify</h3>
+            <p>Complete identity verification using our secure process (video or eID where supported).</p>
+          </article>
+          <article class="card">
+            <h3>Step 3 — Activate</h3>
+            <p>Set up online access, choose your card options, and fund your account to get started.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="requirements" class="section section-soft">
+      <div class="container">
+        <h2 class="section-title">Required documents</h2>
+        <ul>
+          <li>Valid government-issued ID (passport, national ID, or driver's license)</li>
+          <li>Proof of address (utility bill or official letter, recent)</li>
+          <li>Date of birth and national identification number if applicable</li>
+        </ul>
+        <p class="muted">Additional documents may be requested depending on your country of residence or residency status.</p>
+      </div>
+    </section>
+
+    <section id="apply" class="section">
+      <div class="container">
+        <h2 class="section-title">Start your application</h2>
+        <p>Complete the online form and verify your identity. This demo page does not process real applications.</p>
+        <form class="contact-form" action="#" onsubmit="alert('This is a demo. No application sent.'); return false;">
+          <label for="fullname">Full name</label>
+          <input id="fullname" name="fullname" type="text" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="country">Country</label>
+          <input id="country" name="country" type="text" required>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Submit application</button>
+            <a class="btn btn-outline" href="#requirements">Need help?</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-soft">
+    <div class="container footer-bottom">
+      <p class="muted">© 2026 FutureBank. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
